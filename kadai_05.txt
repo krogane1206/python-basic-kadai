@@ -1,0 +1,11 @@
+#課題　変数を使って四則演算しよう！
+#上辺 10㎝　
+upper_base = 10 
+#下辺 20㎝ 
+lower_base = 20
+#高さ ５㎝
+height = 5
+#台形の面積＝（上辺+下辺）×高さ÷２
+area_of_a_trapezoid = (upper_base + lower_base)*(height)/2
+
+print(f"{area_of_a_trapezoid}㎠")
